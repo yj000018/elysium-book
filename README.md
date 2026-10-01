@@ -1,14 +1,30 @@
-# ELYSIUM
-> Civilizational book & ontology | Part of Y-OS vertical projects
+# ELYSIUM — book manifestation
 
-## Overview
-ELYSIUM is a civilizational-scale project — a book and ontological framework
-mapping the transformation of human civilization.
+Book/publication manifestation of ELYSIUM, paired with the ontology surface.
 
-## Repos
-- [elysium-book](https://github.com/yj000018/elysium-book) — Book content
-- [elysium-civilizational-ontology](https://github.com/yj000018/elysium-civilizational-ontology) — Ontology
+**Repository role:** `MANIFESTATION`. **Canonical object:** `YW-000306`.
 
-## Status
-Active — see KAP for knowledge acquisition status.
-*Part of Y-OS ecosystem — 2026-07-28*
+A single consolidated ELYSIUM repository has not been selected or created by Wave A. Both existing manifestation histories remain independent.
+
+## Start here
+
+| Need | Entry |
+|---|---|
+| Identity and authority | [PROJECT.md](PROJECT.md) |
+| Agent operating contract | [AGENTS.md](AGENTS.md) |
+| Canon and document authority | [Documentation map](docs/README.md#canon) |
+| Architecture | [Observed structure](docs/architecture/OVERVIEW.md) |
+| Key decisions | [Decision ledger](docs/decisions/DECISION-LEDGER.md) |
+| Current state | [CURRENT](docs/status/CURRENT.md) |
+| Specifications | [Specs map](docs/README.md#specs) |
+| Resume / handoff | [Resume map](docs/README.md#handoffs) |
+
+## Validation
+
+Validate source/translation correspondence and publication manifests; no root software build is tracked.
+
+Commands are pointers from tracked manifests or existing runbooks, not test results from this audit. Deployment and live acceptance require their own evidence.
+
+## Historical documentation
+
+[Previous README snapshot](docs/history/README-before-wave-a-2026-10-01.md) preserves prior documentation and attribution.
