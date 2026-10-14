@@ -7,10 +7,10 @@ status: draft
 phase: editorial_review
 source_language: en
 translation_of: null
-version: 0.1
+version: 0.2
 created: 2026-06-28
 last_updated: 2026-10-14
-word_count: 1705
+word_count: 1930
 architecture_level: ontology
 elysium_components:
   scales: [Individual / Micro, Collective / Meso, Civilizational / Macro]
@@ -20,6 +20,7 @@ elysium_components:
 dependencies:
   - 00-meta/P02-ONTOLOGY-DIAGNOSTIC-BRIEF-001.md
   - 00-meta/EDITORIAL-SPINE-001.md
+  - 00-meta/12-STEP-LAYER-CROSSWALK-001.md
   - yj000018/elysium-civilizational-ontology: MVS-1 PASS_WITH_DERIVED_WORKING_BASELINE
 next_modules:
   - P03_FOUNDATION_01_MATERIAL_BASE
@@ -99,9 +100,32 @@ The 38-facet map is the reference inventory for Taxonomy A. The current federati
 
 This boundary protects two forms of fidelity at once. It prevents the Book from losing the practical clarity of its 38-facet architecture, and it prevents the infrastructure taxonomy from being treated as an incomplete copy of the metabolic taxonomy.
 
-## 5. The twelve-step analytical matrix
+## 5. Two layers of twelve-step analysis
 
-Each facet can be examined through a twelve-step sequence. The sequence turns a label into a diagnostic path:
+The Book now distinguishes two related but non-identical twelve-step layers. This distinction is necessary because the conceptual matrix in `ontology-map.md` and the editorial protocol used by the pilot matrices serve different functions.
+
+### Conceptual layer A — ontology map
+
+The conceptual layer defines the analytical architecture of a facet:
+
+1. **Definition** — What is this domain?
+2. **Function** — What is its role in civilizational metabolism?
+3. **Current State** — Where does it stand today?
+4. **Historical Evolution** — How did it become this way?
+5. **Core Pathologies** — What are its structural failures?
+6. **Feedback Loops** — How do these failures reinforce themselves or others?
+7. **Dependencies** — What does this domain rely upon?
+8. **Cross-Foundation Couplings** — How does it interact with the other foundations?
+9. **Leverage Points** — Where are the critical nodes for intervention?
+10. **Regenerative Alternatives** — What does a healthy architecture look like?
+11. **Transition Pathways** — How do we move from the current to the regenerative state?
+12. **Metrics / Signals of Health** — How do we measure success?
+
+This layer is the conceptual reference for reasoning about structure, causality, transformation and measurement.
+
+### Editorial layer E — derived protocol
+
+The pilot matrices use a second sequence to organize readable editorial and research material:
 
 1. **Definition / ontology** — What is this domain?
 2. **Function / teleology** — What role does it play in civilizational metabolism?
@@ -116,7 +140,9 @@ Each facet can be examined through a twelve-step sequence. The sequence turns a 
 11. **Risks and blind spots** — How could the transition reproduce harm or create new dependencies?
 12. **Resources and library** — Which evidence, sources and experiences support the analysis?
 
-The matrix is an instrument of inquiry, not a universal law of history. Its order is a confirmed working order, while its wording and future versions remain revisable through explicit versioning.
+This layer is a derived editorial protocol. It is not a one-to-one implementation of the conceptual layer A. For example, editorial “Current crisis” does not replace the historical evolution and core pathologies of A; it selects a readable entry point for a derived matrix.
+
+The complete relation between the two layers is recorded in `12-STEP-LAYER-CROSSWALK-001.md`. The crosswalk is explicit, non-canonical and does not assert term equivalence.
 
 A matrix is also not a source object. A source may provide evidence for one step, several steps or a contradiction. A derived matrix organizes and qualifies material for analysis; it must never be presented as recovered source text when its passages were reconstructed or reformulated.
 
@@ -180,4 +206,4 @@ The next phase is not to declare the map finished. It is to use the map carefull
 
 ## Review state
 
-This is a controlled English draft, version `0.1`. It is subject to editorial, conceptual and factual review. It does not promote any source, matrix, taxonomy or derived layer to `CANONICAL`.
+This is a controlled English draft, version `0.2`. The layer separation resolves the nomenclature conflict without asserting equivalence. The module remains subject to editorial, conceptual and factual review. It does not promote any source, matrix, taxonomy or derived layer to `CANONICAL`.
