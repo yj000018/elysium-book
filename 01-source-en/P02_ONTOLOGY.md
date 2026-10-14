@@ -7,10 +7,10 @@ status: draft
 phase: editorial_review
 source_language: en
 translation_of: null
-version: 0.2
+version: 0.3
 created: 2026-06-28
 last_updated: 2026-10-14
-word_count: 1930
+word_count: 2025
 architecture_level: ontology
 elysium_components:
   scales: [Individual / Micro, Collective / Meso, Civilizational / Macro]
@@ -150,7 +150,7 @@ A matrix is also not a source object. A source may provide evidence for one step
 
 ELYSIUM preserves two valid taxonomies.
 
-**Taxonomy A — Metabolic** provides the Book's primary architecture: scales, foundations, facets and the twelve-step analytical sequence. It is oriented toward the metabolism and transition of civilization.
+**Taxonomy A — Metabolic** provides the Book's primary conceptual architecture: scales, foundations, facets and the conceptual layer A of the twelve-step analysis. The derived editorial layer E organizes the pilot matrices without becoming a second source taxonomy. A is oriented toward the metabolism and transition of civilization.
 
 **Taxonomy B — Open Infrastructure** offers an autonomous structure with its own vocabulary, scope and granularity. It foregrounds dimensions that may not have a one-to-one place in Taxonomy A, including its own universal and infrastructural emphases.
 
@@ -165,6 +165,18 @@ This rule is especially important at the largest scale. A correspondence between
 The current diagnostic baseline includes three derived pilot matrices: Mobility, Biodiversity and Ecosystems. They are used to demonstrate the method, not to claim that the whole ontology has reached final textual validation.
 
 The working layer is `FACET_MATRICES_DERIVED_V03_REVISED`. It is a derived editorial layer with explicit parent hashes, citation references and QA receipts. Its use requires preserving the direct source path, the v0.2 parent hash, the v0.3-cited hash, the v0.3-revised hash and the current review status.
+
+### Provenance of the working baseline
+
+The pilot baseline contains three derived, non-canonical matrices:
+
+| Facet | Derived file SHA-256 | Working status |
+|---|---|---|
+| `F01_05_MOBILITE` | `06f8462a2089e61aab97078fc9505c80f8aa671ff35a6e09b9f3cad0e1310fcf` | `DERIVED_DRAFT_QA_PENDING` |
+| `F02_03_BIODIVERSITE` | `fc93218ef24ea8fc2e2b9dbdb981e19fd2b550244f76e9cbdd66fb27b2276233` | `DERIVED_DRAFT_QA_PENDING` |
+| `F02_04_ECOSYSTEMES` | `b4df62019c764dfdace02a7ac891e9046aa642141c812dd2ad3f5f876517ffc2` | `DERIVED_DRAFT_QA_PENDING` |
+
+These hashes identify the exact working files, not canonical source objects. The parents, source links, citation status and derivation chain remain in the Ontology repository and its QA receipts. The baseline is authorized by `MVS1-FOUNDER-GATE-PASS-2026-10-14.md` as a derived working baseline only.
 
 The pilot matrices show how the same method can accommodate different evidence conditions. Mobility requires caution around macroeconomic loss estimates. Biodiversity requires a distinction between threatened species, monitored population sizes, legal examples and claims about zoonotic risk. Ecosystems requires careful qualification of planetary boundaries, fossil-fuel subsidy estimates, extinction language and the difference between a scientific framework and an internal ELYSIUM model.
 
@@ -184,7 +196,7 @@ The pilot does not silently close every claim. Four reservations remain visible:
 
 Likewise, the language of planetary boundaries must remain connected to its scientific source and must not become a set of simplistic binary thresholds. Axes of transition that are internal to ELYSIUM must be labelled as such when they are not empirical measurements.
 
-The diagnostic brief and this first prose draft are therefore intentionally non-canonical. They are designed to be reviewed, corrected and versioned. Their authority comes from traceability and explicit decisions, not from fluency alone.
+The diagnostic brief and this controlled draft are therefore intentionally non-canonical. They are designed to be reviewed, corrected and versioned. Their authority comes from traceability and explicit decisions, not from fluency alone.
 
 ## 9. From P02 to the foundation chapters
 
@@ -206,4 +218,4 @@ The next phase is not to declare the map finished. It is to use the map carefull
 
 ## Review state
 
-This is a controlled English draft, version `0.2`. The layer separation resolves the nomenclature conflict without asserting equivalence. The module remains subject to editorial, conceptual and factual review. It does not promote any source, matrix, taxonomy or derived layer to `CANONICAL`.
+This is a controlled English draft, version `0.3`. The layer separation, visible pilot provenance and metadata corrections are applied without asserting equivalence or canonicality. The module remains subject to editorial, conceptual and factual review. It does not promote any source, matrix, taxonomy or derived layer to `CANONICAL`.
