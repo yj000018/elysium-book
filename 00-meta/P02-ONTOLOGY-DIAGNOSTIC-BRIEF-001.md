@@ -2,10 +2,13 @@
 
 **Document ID :** `P02-ONTOLOGY-DIAGNOSTIC-BRIEF-001`
 **Position dans la spine :** `SP-02` — Map : méthodologie et architecture fractale
-**Statut :** `DIAGNOSTIC_BRIEF_READY / PROSE_NOT_STARTED`
+**Statut :** `SUPERSEDED_BY_CONTROLLED_PROSE_V03 / HISTORICAL_BRIEF`
 **Version :** `0.1`
 **Date :** 2026-10-14
 **Autorité :** Founder Gate MVS‑1 — `PASS_WITH_DERIVED_WORKING_BASELINE`
+
+**Supersédé par :** `01-source-en/P02_ONTOLOGY.md` — controlled draft `v0.3`
+**Règle de conservation :** ce brief reste conservé comme trace de cadrage et ne doit pas être réécrit pour simuler l’état courant.
 
 ## 1. Fonction du brief
 
